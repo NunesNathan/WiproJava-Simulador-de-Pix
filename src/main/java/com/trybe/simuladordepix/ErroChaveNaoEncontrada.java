@@ -1,7 +1,7 @@
 package com.trybe.simuladordepix;
 
 public class ErroChaveNaoEncontrada extends ErroDePix {
-  public ErroChaveNaoEncontrada(String mensagem) {
-    super(mensagem);
+  public ErroChaveNaoEncontrada() {
+    super(Mensagens.CHAVE_NAO_ENCONTRADA);
   }
 }
